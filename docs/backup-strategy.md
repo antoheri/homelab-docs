@@ -5,7 +5,6 @@
 Système de backup 3-2-1 simplifié :
 - **3** copies des données importantes
 - **2** types de stockage différents
-- **1** copie off-site (optionnel)
 
 ## Outil : BorgBackup
 
@@ -21,8 +20,8 @@ Système de backup 3-2-1 simplifié :
 ```
 Source              │    Borg    │    Destination
 ────────────────────┼────────────┼────────────────
-/etc/               │   create   │  /mnt/backup/
-/home/              │   prune    │    (USB 2TB)
+/etc/               │   create   │  /backups/
+/home/              │   prune    │  (USB 2TB)
 Docker volumes      │   check    │
 ```
 

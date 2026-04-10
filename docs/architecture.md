@@ -60,8 +60,8 @@ Métriques collectées :
 
 | Source | Destination | Fréquence | Rétention |
 |--------|-------------|-----------|-----------|
-| Configs | NAS externe | Quotidien | 30 jours |
-| Docker volumes | NAS externe | Quotidien | 30 jours |
+| Configs | HDD externe | Quotidien | 30 jours |
+| Docker volumes | HDD externe | Quotidien | 30 jours |
 
 ---
 *Architecture évolutive, documentée as-code.*
